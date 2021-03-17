@@ -556,13 +556,13 @@ video {
 
   font-weight: 500;
 
-  src: url(/fonts/Grand Royal Font/Grand Royal.ttf) format("ttf");
+  src: url('fonts/Grand Royal Font/Grand Royal.ttf');
 }
 
 @font-face {
   font-family: Goldplay;
 
-  src: url(/fonts/goldplay/Goldplay Regular.otf) format("otf");
+  src: url('fonts/goldplay/Goldplay Regular.otf');
 }
 
 .container {
