@@ -12,4 +12,12 @@
         font-family: Goldplay;
         src: url('fonts/goldplay/Goldplay Regular.otf');
     }
+    
+    .animAnchor svg{
+      transition: 1s;
+    }
+    
+    .animAnchor:hover svg{
+      transform: translateX(100vw);
+    }
 }

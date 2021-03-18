@@ -1,4 +1,4 @@
-/*! tailwindcss v2.0.3 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v2.0.4 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -529,6 +529,14 @@ video {
   src: url('fonts/goldplay/Goldplay Regular.otf');
 }
 
+.animAnchor svg{
+  transition: 1s;
+}
+
+.animAnchor:hover svg{
+  transform: translateX(100vw);
+}
+
 .container {
   width: 100%;
 }
@@ -712,6 +720,10 @@ video {
 
 .hover\:opacity-80:hover {
   opacity: 0.8;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .px-5 {
